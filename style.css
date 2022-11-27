@@ -1,0 +1,41 @@
+h1{
+    color: blue;
+}
+h1{
+    font-size: 50px;
+}
+h1{
+    text-align: center;
+}
+h1{
+    font-family: cursive;
+}
+.seccion1{
+    border: 20px solid red;
+}
+.seccion1{
+    text-decoration-line:underline;
+}
+.seccion1{
+    text-align:justify;
+}
+
+.seccion1 h2{
+    color:brown;
+}
+.seccion1{
+    background: aqua;
+    background-size: 50px;
+}
+#titulo_Seccion1{
+    text-align: center;
+}
+#titulo_Seccion1{
+    color: blue;
+}
+#titulo_Seccion1{
+    text-transform: capitalize;
+}
+#titulo_Seccion1{
+    font-size: 50px;
+}
