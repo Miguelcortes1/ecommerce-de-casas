@@ -1,41 +1,70 @@
 h1{
     color: blue;
-}
-h1{
     font-size: 50px;
-}
-h1{
     text-align: center;
-}
-h1{
     font-family: cursive;
-}
-.seccion1{
-    border: 20px solid red;
-}
-.seccion1{
-    text-decoration-line:underline;
-}
-.seccion1{
-    text-align:justify;
+    text-transform: uppercase;
 }
 
-.seccion1 h2{
+.seccion1{
+    border: 20px solid red;
+    text-decoration-line:underline;
+    text-align:justify;
     color:brown;
 }
+
 .seccion1{
     background: aqua;
     background-size: 50px;
 }
 #titulo_Seccion1{
     text-align: center;
-}
-#titulo_Seccion1{
     color: blue;
-}
-#titulo_Seccion1{
     text-transform: capitalize;
-}
-#titulo_Seccion1{
     font-size: 50px;
+}
+#logo_titulo{
+    width: 100px;
+    height: 50px;
+}
+#carrito_compra{
+    width: 50px;
+    height: 50px;
+}
+#img1{
+    width: 600px;
+    height: 500px;
+}
+.grid_container_columns{
+    border: 1px solid red;
+    background-color: aquamarine;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    padding: 1px;
+}
+.grid_container_columns>div{
+    display: flex;
+    height: 200px;
+    padding: 2px;
+    align-items: center;
+}
+.titulo_principal{
+    background-color: cadetblue;
+}
+.titulo_principal:hover{
+    color: white;
+}
+.barra-nav{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+.barra-nav:hover{
+    background-color: gold;
+    font-size: 22px;
+}
+#titulo_Seccion1:hover{
+    color: firebrick;
+    font-size: 60px;
 }
