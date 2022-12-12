@@ -1,70 +1,54 @@
-h1{
-    color: blue;
-    font-size: 50px;
-    text-align: center;
-    font-family: cursive;
-    text-transform: uppercase;
+header {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .barra-menu {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: underline blue;
+}
+header nav .barra-menu li {
+  list-style: none a;
+  list-style-text-decoration: none;
+  list-style-color: white;
+}
+header nav .botonBuscar {
+  font-size: 15px;
+  background-color: chartreuse;
+  border-radius: 5px;
+  padding: 1rem;
 }
 
-.seccion1{
-    border: 20px solid red;
-    text-decoration-line:underline;
-    text-align:justify;
-    color:brown;
+body main {
+  background-color: red;
+}
+body main section h2, body main section p {
+  font-family: "Monserrat", sans-serif;
+  color: white;
+}
+body main li {
+  font-family: "Monserrat", sans-serif;
 }
 
-.seccion1{
-    background: aqua;
-    background-size: 50px;
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  body {
+    background-color: rgb(238, 20, 20);
+  }
+  body #img1 {
+    height: 150px;
+    width: 150px;
+  }
 }
-#titulo_Seccion1{
-    text-align: center;
-    color: blue;
-    text-transform: capitalize;
-    font-size: 50px;
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  body {
+    background-color: coral;
+  }
+  body #img1 {
+    height: 400px;
+    width: 400px;
+  }
 }
-#logo_titulo{
-    width: 100px;
-    height: 50px;
-}
-#carrito_compra{
-    width: 50px;
-    height: 50px;
-}
-#img1{
-    width: 600px;
-    height: 500px;
-}
-.grid_container_columns{
-    border: 1px solid red;
-    background-color: aquamarine;
 
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 50px;
-    padding: 1px;
-}
-.grid_container_columns>div{
-    display: flex;
-    height: 200px;
-    padding: 2px;
-    align-items: center;
-}
-.titulo_principal{
-    background-color: cadetblue;
-}
-.titulo_principal:hover{
-    color: white;
-}
-.barra-nav{
-    background-color: aquamarine;
-    font-size: 20px;
-}
-.barra-nav:hover{
-    background-color: gold;
-    font-size: 22px;
-}
-#titulo_Seccion1:hover{
-    color: firebrick;
-    font-size: 60px;
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-de-casas",
+  "version": "1.0.0",
+  "description": "venta de casas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelcortes1/ecommerce-de-casas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguelcortes1/ecommerce-de-casas/issues"
+  },
+  "homepage": "https://github.com/Miguelcortes1/ecommerce-de-casas#readme"
+}

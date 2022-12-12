@@ -1,0 +1,18 @@
+body {
+    
+  main {
+    background-color: $colorFondo;
+    section {
+      h2 {
+        font-family: $tipografiaPrincipal;
+        color: $colorFuente;
+      }
+    }
+    p {
+      @extend h2;
+    }
+    li {
+      font-family: $tipografiaPrincipal;
+    }
+  }
+}
